@@ -31,3 +31,28 @@
 button{
     color: red;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: auto;
+        width: 70%;
+        border: 3px solid #73AD21;
+        padding: 10px;
+        align-items: center;
+     }
+
+     #btn{
+        margin: auto;
+        position: relative;
+        left: 35%;
+        padding: 5px 10px;
+        background-color: rgb(19, 116, 43);
+        color: white;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+  }
